@@ -1,3 +1,13 @@
 .nav {
     background-color: #99B9BB;
 }
+
+.nav li :hover {
+    background-color: pink;
+    color: red;
+}
+
+.nav a {
+    color: #285E5A;
+}
+

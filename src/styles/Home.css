@@ -1,0 +1,26 @@
+.header {
+    background-color: #285E5A;
+    /* height: 200px; */
+    color: #F5F4F1;
+    font-family: "Sentinel A, Sentinel B, Georgia, Helvetica Neue, Arial, sans-serif";
+}
+
+.titleStyle {
+    font-size: 4em;
+    font-family: "Sentinel A","Sentinel B","Georgia","Helvetica Neue",Arial,sans-serif;
+} 
+
+.subtitleStyle {
+    font-size: 30px;
+    color: #99B9BB
+    ;
+}
+
+.footer {
+    background-color: #285E5A;
+    color: #F5F4F1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

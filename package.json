@@ -1,5 +1,6 @@
 {
   "name": "chelsea-sexton-portfolio",
+  "homepage": "https://chelsea314.github.io/Module-20---React-Portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +10,7 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
+    "gh-pages": "^4.0.0",
     "jspdf": "^2.5.1",
     "pretty": "^2.0.0",
     "react": "^17.0.1",
@@ -21,6 +23,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

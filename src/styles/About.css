@@ -1,5 +1,12 @@
 .about {
-    background-color: #F5F4F1;
-    color: #285E5A;
+    color: #41455B;
     font-family: "Sentinel A, Sentinel B, Georgia, Helvetica Neue, Arial, sans-serif";
+}
+
+.about-title {
+    font-size: 75px;
+}
+
+.list {
+    font-size: 25px;
 }

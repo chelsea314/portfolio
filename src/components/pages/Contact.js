@@ -1,28 +1,15 @@
 import React from 'react';
+import '../../styles/Contact.css';
+
 
 export default function Contact() {
-    // useEffect(() => {
-    //     const submit = document.getElementById("submit");
-    //     submit.addEventListener("click", validate);
-    //     function validate(e) {
-    //         e.preventDefault();
-    //         const nameField = document.getElementById("name");
-    //         let valid = true;
-    //         if (!nameField.value) {
-    //             const nameError = document.getElementById("nameError");
-    //             nameError.classList.add("visible");
-    //             nameField.classList.add("invalid");
-    //             nameError.setAttribute("aria-hidden", false);
-    //             nameError.setAttribute("aria-invalid", true);
-    //         }
-    //         return valid;
-    //     }
-    // })
-
     return (
-    <div>
-        <h1>Contact Me</h1>
+    <div className='contact'>
+        
         <form className='container'>
+        <div>
+            <h1 className='mt-3'>Contact Me</h1>
+        </div>
             <div className='row'>
 
                 <div className='col-12 col-md-4 col-lg-6 mb-3'>

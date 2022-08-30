@@ -1,5 +1,5 @@
 .header {
-    background-color: #285E5A;
+    background-color: #52aac6;
     /* height: 200px; */
     color: #F5F4F1;
     font-family: "Sentinel A, Sentinel B, Georgia, Helvetica Neue, Arial, sans-serif";
@@ -12,9 +12,28 @@
 
 .subtitleStyle {
     font-size: 30px;
-    color: #ABB6C9;
+    color: #41455B;
 }
 
-.footer {
-    background-color: #285E5A;
+.footer-link {
+    color: #52aac6;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;  
+    color: #41455B;
+    font-family: "Sentinel A","Sentinel B","Georgia","Helvetica Neue",Arial,sans-serif;
+    background-color: #41455B;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
 }

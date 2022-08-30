@@ -13,18 +13,18 @@ export default function Resume() {
     }
 
     return(
-        <div>
-            <Document file={resumePDF} onLoadSuccess={onDocumentLoadSuccess} onLoadError={console.error}>
-                <Page pageNumber={pageNumber} />
-            </Document>
-            <p>
-                Page {pageNumber} of {numPages}
-            </p>
-            <a href={resumePDF} target="blank">
-                <button>Download PDF</button>
-            </a>
-            <div>
-                
+        <div className='container'>
+            <div className='row'>
+            <a className= "col-12 col-md-2 col-lg-3 mt-5" href={resumePDF} target="blank">
+                    <button>Download PDF</button>
+                </a>
+                <Document className="col-12 col-md-6 col-lg-4" file={resumePDF} onLoadSuccess={onDocumentLoadSuccess} onLoadError={console.error}>
+                    <Page pageNumber={pageNumber} />
+                </Document>
+                {/* <p>
+                    Page {pageNumber} of {numPages}
+                </p> */}
+               
             </div>
         </div>
     )

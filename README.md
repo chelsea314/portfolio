@@ -7,13 +7,15 @@ Being a web developer means being part of a community. This is a place to share 
 
 <br>
 
-# Demo
-Click link to watch video and see functionality of application.
+# Visit Site
+Click link to see portfolio.
 
 [Chelsea Sexton's Portfolio](http://www.chelseasextonportfolio.com/)
 
-
 <br>
+
+# Screenshot of Portfolio
+![Chelsea Portfolio](./public/portfolioScreenshot.png)
 
 # Collaborators
 [Chelsea Sexton](https://github.com/chelsea314)
@@ -22,9 +24,9 @@ Click link to watch video and see functionality of application.
 
 # Resources
 
-[Bootstrap](https://getbootstrap.com/)
-[ReactJS](https://reactjs.org/)
-[React-PDF](https://react-pdf.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [ReactJS](https://reactjs.org/)
+- [React-PDF](https://react-pdf.org/)
 
 <br>
 

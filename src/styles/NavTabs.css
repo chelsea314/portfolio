@@ -3,11 +3,11 @@
 }
 
 .nav li :hover {
-    background-color: pink;
-    color: red;
+    background-color: #F5F4F1;
+    color: #ABB6C9;
 }
 
 .nav a {
-    color: #285E5A;
+    color: #F5F4F1;
 }
 

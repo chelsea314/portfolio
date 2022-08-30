@@ -1,5 +1,9 @@
-.about {
+.portfolio {
     background-color: #F5F4F1;
     color: #285E5A;
     font-family: "Sentinel A, Sentinel B, Georgia, Helvetica Neue, Arial, sans-serif";
+}
+
+.projects {
+    border: #285E5A solid 4px;
 }

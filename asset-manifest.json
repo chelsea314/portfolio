@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Module-20---React-Portfolio/static/css/main.ed5894b7.chunk.css",
+    "main.js": "/Module-20---React-Portfolio/static/js/main.8dd9c80d.chunk.js",
+    "main.js.map": "/Module-20---React-Portfolio/static/js/main.8dd9c80d.chunk.js.map",
+    "runtime-main.js": "/Module-20---React-Portfolio/static/js/runtime-main.0c668eab.js",
+    "runtime-main.js.map": "/Module-20---React-Portfolio/static/js/runtime-main.0c668eab.js.map",
+    "static/css/2.984f751f.chunk.css": "/Module-20---React-Portfolio/static/css/2.984f751f.chunk.css",
+    "static/js/2.2ae45aaf.chunk.js": "/Module-20---React-Portfolio/static/js/2.2ae45aaf.chunk.js",
+    "static/js/2.2ae45aaf.chunk.js.map": "/Module-20---React-Portfolio/static/js/2.2ae45aaf.chunk.js.map",
+    "index.html": "/Module-20---React-Portfolio/index.html",
+    "static/css/2.984f751f.chunk.css.map": "/Module-20---React-Portfolio/static/css/2.984f751f.chunk.css.map",
+    "static/css/main.ed5894b7.chunk.css.map": "/Module-20---React-Portfolio/static/css/main.ed5894b7.chunk.css.map",
+    "static/js/2.2ae45aaf.chunk.js.LICENSE.txt": "/Module-20---React-Portfolio/static/js/2.2ae45aaf.chunk.js.LICENSE.txt",
+    "static/media/ChelseaSextonResume.eee288dd.pdf": "/Module-20---React-Portfolio/static/media/ChelseaSextonResume.eee288dd.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c668eab.js",
+    "static/css/2.984f751f.chunk.css",
+    "static/js/2.2ae45aaf.chunk.js",
+    "static/css/main.ed5894b7.chunk.css",
+    "static/js/main.8dd9c80d.chunk.js"
+  ]
+}

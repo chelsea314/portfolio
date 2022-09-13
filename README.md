@@ -1,4 +1,4 @@
-# Module-20---React-Portfolio
+# Portfolio
 
 # Overview
 The purpose of this project is to create a portfolio using React.

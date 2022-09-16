@@ -1,13 +1,22 @@
 .nav {
-    background-color: #41455B;
+    background-color: var(--heron);
+    color: var(--light);
 }
 
 .nav li :hover {
-    background-color: #F5F4F1;
-    color: #ABB6C9;
+    background-color: var(--yellow);
+    color: var(--heron);
 }
 
-.nav a {
-    color: #F5F4F1;
+.nav li a {
+    color: var(--light) !important;
 }
 
+.active {
+    background-color: var(--yellow) !important;
+    color: var(--heron) !important;
+}
+
+.nav-link :active {
+    color: var(--heron) !important;
+}

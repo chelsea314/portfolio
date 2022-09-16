@@ -3,14 +3,18 @@ import PortfolioContainer from "./components/PortfolioContainer";
 
 // Here we are importing a CSS file as a dependency
 import './styles/Home.css';
+import logo from './images/Heron.svg';
 
 function Home() {
   return (
   <div id='page-container'>
     <div className="jumbotron header container-fluid page-container">
-      <div className="row">
-        <h1 className="col-12 mt-3 mb-0 titleStyle">Chelsea Sexton</h1>
-        <h2 className="col-12 mr-3 subtitleStyle">Full Stack Developer</h2>
+      <div className="row"> 
+        <img className="col-4 col-md-1  mt-3 mb-0" src={logo}alt="Chelsea's Headshot" width="50" height="120" />
+        <div className="col-12 col-md-11">
+          <h1 className="mt-3 mb-0 titleStyle">Chelsea Sexton</h1>
+          <h2 className="subtitleStyle">Full Stack Web Developer</h2>
+        </div>
       </div>
     </div>
     <div id='content-wrap'>

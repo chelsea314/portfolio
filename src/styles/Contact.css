@@ -1,6 +1,6 @@
 .contact {
   font-family: "Sentinel A","Sentinel B","Georgia","Helvetica Neue",Arial,sans-serif;
-  color: #41455B;
+  color: var(--heron);
 }
 
 #nameError {
@@ -13,5 +13,5 @@
   }
   
   input.invalid {
-    border-color: red;
+    border-color: var(--yellow);
   }

@@ -1,0 +1,30 @@
+ .resume {
+    color: var(--heron);
+    font-family: "Sentinel A, Sentinel B, Georgia, Helvetica Neue, Arial, sans-serif";
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.resume-btn {
+    background-color: var(--heron) !important;
+    border: solid 2px var(--grayBlue) !important;
+    color: var(--light) !important;
+}
+
+.resume-link {
+    color: var(--light) !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.resume-link :hover {
+    background-color: var(--yellow) !important;
+    color: var(--light) !important;
+}
+

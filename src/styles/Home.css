@@ -1,7 +1,18 @@
+:root {
+    --heron: #446389;
+    --light: #f8faf0;
+    --yellow: #FFC47B;
+    --grayBlue: #b5d2dd;
+  }
+
 .header {
-    background-color: #52aac6;
+    /* background-color: #71c1e8; */
+    background-color: var(--grayBlue);
+
     /* height: 200px; */
-    color: #F5F4F1;
+    /* color: #F5F4F1; */
+    color: var(--light);
+    /* color: #446389; */
     font-family: "Sentinel A, Sentinel B, Georgia, Helvetica Neue, Arial, sans-serif";
 }
 
@@ -12,11 +23,15 @@
 
 .subtitleStyle {
     font-size: 30px;
-    color: #41455B;
+    /* color: #41455B; */
+    /* color: #f8faf0; */
+    color: var(--heron);
+
 }
 
 .footer-link {
-    color: #52aac6;
+    color: var(--grayBlue);
+    text-decoration: none;
 }
 
 #footer {
@@ -24,16 +39,18 @@
     bottom: 0;
     width: 100%;
     height: 2.5rem;  
-    color: #41455B;
+    color: var(--light);
     font-family: "Sentinel A","Sentinel B","Georgia","Helvetica Neue",Arial,sans-serif;
-    background-color: #41455B;
+    background-color: var(--heron);
 }
 
 #page-container {
     position: relative;
     min-height: 100vh;
+    background-color: var(--light);
 }
 
 #content-wrap {
     padding-bottom: 2.5rem;
+    background-color: var(--light);
 }

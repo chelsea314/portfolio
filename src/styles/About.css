@@ -1,6 +1,7 @@
 .about {
-    color: #41455B;
+    color: var(--heron);
     font-family: "Sentinel A, Sentinel B, Georgia, Helvetica Neue, Arial, sans-serif";
+    /* background-color: #f8faf0; */
 }
 
 .about-title {

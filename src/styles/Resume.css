@@ -13,7 +13,7 @@
 
 .resume-btn {
     background-color: var(--heron) !important;
-    border: solid 2px var(--grayBlue) !important;
+    border: solid 2px var(--heron) !important;
     color: var(--light) !important;
 }
 

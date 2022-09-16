@@ -8,12 +8,12 @@ export default function Resume() {
         <div className="row justify-content-center">
             <div className="col-11">
                 <div className="row">
-                    <h1 className='font-weight-bold col-9 mb-0'>Summary</h1>
-                    <a className="col-3 resume-link" href={resumePDF} download>
-                        <button type="button" className="resume-btn btn">Download Resume </button>
+                    <h1 className='font-weight-bold col-12 col-md-9 mb-0'>Summary</h1>
+                    <a className="col-md-3 resume-link" href={resumePDF} download>
+                        <button type="button" className="resume-btn btn text-nowrap">Download Resume </button>
                     </a>
                 </div>
-                <hr />
+                <hr className='mt-2' />
                 <p>Full stack web developer with experience in responsive web design using the MERN stack. Skilled in front-end development using HTML5, CSS3, Javascript and frameworks including React.js, Handlebars, Bootstrap and Bulma. Competent with back-end development using Node.js, SQL, MySQL, Express.js, and MongoDB. Focused and creative individual with great attention to detail, proficient with RESTful APIs, debugging and GitHub, as well as deploying applications through Heroku. Highly collaborative teammate able to adapt quickly to fast-paced environments. Life-long learner with a passion for solving problems and continual growth. Strong listening, verbal and written communication skills with an emphasis on professionalism.</p>
 
                 <div className="row">
@@ -70,7 +70,7 @@ export default function Resume() {
                     <h1 className='font-weight-bold'>Education</h1>
                     <hr />
                     <div className="col-12 col-sm-8">
-                        <h5 className='font-weight-bold'>THE UNIVERSITY OF TEXAS AT AUSTIN</h5> 
+                        <h5 className='font-weight-bold'>The University of Texas at Austin</h5> 
                         <ul>
                         <h6>Full Stack Web Development Certificate</h6> 
                         <h6 className='font-italic'>&emsp;&emsp;September 2022</h6>
@@ -80,15 +80,7 @@ export default function Resume() {
                     </div>
                 </div>
 
-
-
             </div>
         </div>
-        
-        <div className='row'>
-            <a href={resumePDF} download> Click to download</a>
-        </div>
-</div>
-           
-    )
-}
+    </div>
+)}

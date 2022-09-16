@@ -12,7 +12,7 @@ export default function About() {
                         <p>I have a passion for learning and continual growth and I am striving to incorporate these virtues into my career. I genuinely believe that the tech industry provides this opportunity with its ever-evolving nature. There are always new paths to embark upon, challenges to accept, problems to solve and concepts to learn. </p>
                 </div>
                 <div className= "col-sm-12 col-md-3 col-sm-pull-12">
-                    <img className='rounded-circle' src={headshot} alt="Chelsea's Headshot" width="300" height="350"/>
+                    {/* <img className='rounded-circle' src={headshot} alt="Chelsea's Headshot" width="300" height="350"/> */}
                 </div>
             </div>
     </div>

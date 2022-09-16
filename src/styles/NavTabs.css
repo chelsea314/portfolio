@@ -6,6 +6,7 @@
 .nav li :hover {
     background-color: var(--yellow);
     color: var(--heron);
+    border: solid 1px var(--light) !important;
 }
 
 .nav li a {
@@ -15,8 +16,11 @@
 .active {
     background-color: var(--yellow) !important;
     color: var(--heron) !important;
+    border: solid 1px var(--light) !important;
+
 }
 
 .nav-link :active {
     color: var(--heron) !important;
+    border: solid 1px var(--light) !important;
 }

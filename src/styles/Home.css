@@ -6,13 +6,8 @@
   }
 
 .header {
-    /* background-color: #71c1e8; */
     background-color: var(--grayBlue);
-
-    /* height: 200px; */
-    /* color: #F5F4F1; */
     color: var(--light);
-    /* color: #446389; */
     font-family: "Sentinel A, Sentinel B, Georgia, Helvetica Neue, Arial, sans-serif";
 }
 
@@ -23,10 +18,7 @@
 
 .subtitleStyle {
     font-size: 30px;
-    /* color: #41455B; */
-    /* color: #f8faf0; */
     color: var(--heron);
-
 }
 
 .footer-link {
@@ -47,6 +39,7 @@
 #page-container {
     position: relative;
     min-height: 100vh;
+    min-width: 100vw;
     background-color: var(--light);
 }
 

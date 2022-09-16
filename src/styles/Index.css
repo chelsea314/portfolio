@@ -1,0 +1,6 @@
+#root {
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: var(--light);
+}

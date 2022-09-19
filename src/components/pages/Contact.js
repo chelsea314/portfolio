@@ -7,7 +7,7 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_f4cjd6h', 'template_gq1wfxz', form.current, 'hzV2-vw1sxYtZlA_v')
+    emailjs.sendForm('service_d1hba88', 'contact_form', form.current, 'hzV2-vw1sxYtZlA_v')
       .then((result) => {
           console.log(result.text);
       }, (error) => {

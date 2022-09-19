@@ -2,3 +2,18 @@
     color: var(--heron);
     font-family: "Sentinel A, Sentinel B, Georgia, Helvetica Neue, Arial, sans-serif";
 }
+
+.cs-card {
+    background-color: var(--light) !important;
+    border: solid 1px var(--heron) !important;
+}
+
+.btn-card {
+    background-color: var(--heron) !important;
+    color: var(--light) !important;
+}
+
+.list-group-item {
+    background-color: var(--light) !important;
+    color: var(--heron) !important;
+}

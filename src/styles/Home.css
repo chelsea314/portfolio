@@ -29,7 +29,7 @@
 #footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    min-width: 100vw;
     height: 2.5rem;  
     color: var(--light);
     font-family: "Sentinel A","Sentinel B","Georgia","Helvetica Neue",Arial,sans-serif;
@@ -39,7 +39,7 @@
 #page-container {
     position: relative;
     min-height: 100vh;
-    min-width: 100vw;
+    max-width: 100vw;
     background-color: var(--light);
 }
 

@@ -7,9 +7,9 @@ import logo from './images/Heron.svg';
 
 function Home() {
   return (
-  <div  id='page-container'>
+  <div id='page-container'>
     <div className="jumbotron header container-fluid page-container">
-      <div className="row"> 
+      <div className='row'> 
         <img className="col-4 col-md-1 align-self-center" src={logo}alt="Chelsea's Headshot" width="50" height="120" />
         <div className="col-12 col-md-11">
           <h1 className="mt-3 mb-0 titleStyle">Chelsea Sexton</h1>

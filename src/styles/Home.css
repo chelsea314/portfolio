@@ -24,6 +24,7 @@
 .footer-link {
     color: var(--grayBlue);
     text-decoration: none;
+    font-size: 25px;
 }
 
 #footer {

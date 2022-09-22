@@ -1,6 +1,31 @@
+@import url('https://kit.fontawesome.com/2b86d1c003.js');
+
 .contact {
   font-family: "Sentinel A","Sentinel B","Georgia","Helvetica Neue",Arial,sans-serif;
   color: var(--heron);
+}
+
+.contact-info {
+  list-style: none;
+}
+
+.contact-link {
+  text-decoration: none;
+  /* color: var(--heron); */
+}
+
+li a.contact-link :hover{
+  color: var(--yellow) !important;
+}
+
+.contact-btn {
+  background-color: var(--heron) !important;
+  border: solid 2px var(--heron) !important;
+  color: var(--light) !important;
+}
+
+.btn:hover {
+  background-color: var(--yellow) !important;
 }
 
 #nameError {

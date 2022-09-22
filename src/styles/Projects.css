@@ -11,6 +11,7 @@
 .btn-card {
     background-color: var(--heron) !important;
     color: var(--light) !important;
+    border: solid 2px var(--heron) !important;
 }
 
 .list-group-item {

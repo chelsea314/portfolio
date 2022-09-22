@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import '../../styles/Contact.css'
 
 export default function Contact() {
   const form = useRef();
@@ -13,58 +14,41 @@ export default function Contact() {
       }, (error) => {
           console.log(error.text);
       });
-
       alert("Email Sent to Chelsea!");
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+    <div className="contact container">
+        <div className='row'>
+            <h1 className='mt-3'>Contact Me</h1>
+        </div>
+        <div className='row'>
+            <div className='col-12 col-md-6 mt-3'>
+                <p className='mb-4'>Fill out the form to send me a message. I will respond to you via email. Or reach out via the links below:</p>
+                <ul className='contact-info'>
+                    <li><a className="contact-link" href="mailto:chelseansexton@gmail.com" target="blank">Chelseansexton@gmail.com</a></li>
+                    <li><a className="contact-link" href="tel:5554280940" target="blank">(214) - 402 - 8668</a></li>
+                    <li><a className="contact-link" href="https://www.linkedin.com/in/chelsea-sexton/" target="blank">LinkedIn</a></li>
+                    <li><a className="contact-link" href="https://github.com/chelsea314" target="blank">GitHub</a></li>
+                </ul>
+            </div>
+
+            <form className="col-12 col-md-6 " ref={form} onSubmit={sendEmail}>
+                <div className="form-floating mb-3" >
+                    <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com" required/>
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <div className="form-floating mb-3">
+                    <input name="user_name" type="text" className="form-control" id="floatingInput" placeholder="Full Name" required/>
+                    <label for="floatingPassword">Full Name</label>
+                </div>
+                <div className="form-floating mb-3">
+                    <textarea name="message" type="text" className="form-control" id="floatingInput" placeholder="Message" required/>
+                    <label for="floatingInput">Message</label>
+                    <input className="btn contact-btn mt-3" type="submit" value="Send" />
+                </div>
+            </form>
+        </div>
+    </div>
   );
 };
-
-// import React from 'react';
-// import '../../styles/Contact.css';
-
-
-// export default function Contact() {
-//     return (
-//     <div className='contact'>
-        
-//         <form className='container'>
-//         <div>
-//             <h1 className='mt-3'>Contact Me</h1>
-//         </div>
-//             <div className='row'>
-
-//                 <div className='col-12 col-md-4 col-lg-6 mb-3'>
-//                     <label for='name'>Full Name</label>
-//                     <input class="form-control" type="text" name="user_name" placeholder="John Doe" id="name" required/>
-//                 </div>
-
-//                 <div className='col-12 col-md-4 col-lg-6 mb-3'>
-//                     <div className="form-group">
-//                         <label for="exampleInputEmail1">Email address</label>
-//                         <input type="email" class="form-control" name="user_email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='JohnDoe123@email.com' required/>
-//                     </div>
-//                 </div>
-
-//                 <div className='col-12 mb-3'>
-//                     <div className="input">
-//                         <label for="message">Send Message to Chelsea</label>
-//                         <textarea className="form-control" aria-label="With textarea"  name="message" required></textarea>
-//                         <button className="btn btn-primary" type="button" id="submitBtn">Submit</button>
-//                     </div>
-//                 </div>
-//             </div>
-//         </form>
-//     </div>
-//     );
-// }

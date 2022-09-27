@@ -1,6 +1,6 @@
 import React from 'react';
 import blackjack from '../../images/blackjackbaby.svg'
-import dart from '../../images/dart.svg'
+// import dart from '../../images/dart.svg'
 import note from '../../images/note.svg'
 import team from '../../images/team.svg'
 import weather from '../../images/weather.svg'

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Chelsea-Sexton-Portfolio/static/css/main.1089d4fa.chunk.css",
-    "main.js": "/Chelsea-Sexton-Portfolio/static/js/main.f3b4683b.chunk.js",
-    "main.js.map": "/Chelsea-Sexton-Portfolio/static/js/main.f3b4683b.chunk.js.map",
+    "main.js": "/Chelsea-Sexton-Portfolio/static/js/main.da478dd1.chunk.js",
+    "main.js.map": "/Chelsea-Sexton-Portfolio/static/js/main.da478dd1.chunk.js.map",
     "runtime-main.js": "/Chelsea-Sexton-Portfolio/static/js/runtime-main.7100455d.js",
     "runtime-main.js.map": "/Chelsea-Sexton-Portfolio/static/js/runtime-main.7100455d.js.map",
     "static/css/2.984f751f.chunk.css": "/Chelsea-Sexton-Portfolio/static/css/2.984f751f.chunk.css",
@@ -17,7 +17,6 @@
     "static/media/baes.d5d0f93e.svg": "/Chelsea-Sexton-Portfolio/static/media/baes.d5d0f93e.svg",
     "static/media/blackjackbaby.105fa748.svg": "/Chelsea-Sexton-Portfolio/static/media/blackjackbaby.105fa748.svg",
     "static/media/chelseaheadshot.d48ab77d.png": "/Chelsea-Sexton-Portfolio/static/media/chelseaheadshot.d48ab77d.png",
-    "static/media/dart.b93e4b86.svg": "/Chelsea-Sexton-Portfolio/static/media/dart.b93e4b86.svg",
     "static/media/note.d46edff4.svg": "/Chelsea-Sexton-Portfolio/static/media/note.d46edff4.svg",
     "static/media/team.233b1a11.svg": "/Chelsea-Sexton-Portfolio/static/media/team.233b1a11.svg",
     "static/media/weather.e6e3a245.svg": "/Chelsea-Sexton-Portfolio/static/media/weather.e6e3a245.svg"
@@ -27,6 +26,6 @@
     "static/css/2.984f751f.chunk.css",
     "static/js/2.769cbc58.chunk.js",
     "static/css/main.1089d4fa.chunk.css",
-    "static/js/main.f3b4683b.chunk.js"
+    "static/js/main.da478dd1.chunk.js"
   ]
 }

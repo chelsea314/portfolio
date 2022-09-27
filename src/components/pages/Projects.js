@@ -53,7 +53,7 @@ export default function Projects() {
             </div>
 
             <div className='row justify-content-around'>
-            <div className="card col-12 col-md-5 cs-card p-0 mb-3" width="18rem;">
+            {/* <div className="card col-12 col-md-5 cs-card p-0 mb-3" width="18rem;">
                 <img src={dart} width='18px' className="card-img-top" alt="Dart on the Map" />
                 <div className="card-body">
                     <h3 className="card-title">Dart on the Map</h3>
@@ -65,12 +65,17 @@ export default function Projects() {
                         Server-side APIs, Bulma CSS framework</li>
                     </ul>
                     <div className='row justify-content-around'>
-                        <a href="https://loversnotfighters.herokuapp.com/" target="blank" className="btn btn-card col-5">Visit Site</a>
-                        <a href="https://github.com/chelsea314/baes" target="blank" className="btn btn-card col-5">GitHub Repo</a>
+                        <a href="https://jadentr44.github.io/Dart-On-The-Map/" target="blank" className="btn btn-card col-5">Visit Site</a>
+                        <a href="https://github.com/chelsea314/Dart-On-The-Map" target="blank" className="btn btn-card col-5">GitHub Repo</a>
                     </div>
                 </div>
+            </div> */}
+
+            
             </div>
 
+
+            <div className='row justify-content-around'>
             <div className="card col-12 col-md-5 cs-card p-0 mb-3" width="18rem;">
                 <img src={weather} width='18px' className="card-img-top" alt="Weather Dashboard" />
                 <div className="card-body">
@@ -89,10 +94,7 @@ export default function Projects() {
                     </div>
                 </div>
             </div>
-            </div>
-
-
-            <div className='row justify-content-around'>
+            
             <div className="card col-12 col-md-5 cs-card p-0 mb-3" width="18rem;">
                 <img src={note} width='18px' className="card-img-top" alt="Note Taker" />
                 <div className="card-body">

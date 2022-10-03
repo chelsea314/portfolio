@@ -10,7 +10,7 @@ Being a web developer means being part of a community. This is a place to share 
 # Visit Site
 Click link to see portfolio.
 
-[Chelsea Sexton's Portfolio](https://chelsea314.github.io/Portfolio/)
+[Chelsea Sexton's Portfolio](https://chelsea314.github.io/portfolio/)
 
 <br>
 

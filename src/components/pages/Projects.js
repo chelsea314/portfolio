@@ -90,7 +90,7 @@ export default function Projects() {
                     </ul>
                     <div className='row justify-content-around'>
                         <a href="https://chelsea314.github.io/Weather-Dashboard/" target="blank" className="btn btn-card col-5">Visit Site</a>
-                        <a href="https://github.com/chelsea314/Challenge-6---Server-Side-APIs-Weather-Dashboard" target="blank" className="btn btn-card col-5">GitHub Repo</a>
+                        <a href="https://github.com/chelsea314/Weather-Dashboard" target="blank" className="btn btn-card col-5">GitHub Repo</a>
                     </div>
                 </div>
             </div>

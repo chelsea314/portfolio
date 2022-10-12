@@ -31,7 +31,7 @@
     position: absolute;
     bottom: 0;
     min-width: 100vw;
-    height: 2.5rem;  
+    /* height: 2.5rem;   */
     color: var(--light);
     font-family: "Sentinel A","Sentinel B","Georgia","Helvetica Neue",Arial,sans-serif;
     background-color: var(--heron);

@@ -21,7 +21,7 @@ function Home() {
       <PortfolioContainer />
     </div>
     <footer id="footer" className='footer'>
-      <div className= 'row justify-content-around'>
+      <div className= 'row justify-content-center'>
         <a href="https://github.com/chelsea314?tab=repositories" target="blank" className='col-2 footer-link'>GitHub</a>
         <a href="https://www.linkedin.com/in/chelsea-sexton-2b0090223/" target="blank" className='col-2 footer-link'>LinkedIn</a>
         </div>

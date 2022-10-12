@@ -1,54 +1,50 @@
-# Portfolio
+# **Portfolio**
 
-# Overview
-The purpose of this project is to create a portfolio using React.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Being a web developer means being part of a community. This is a place to share my projects with fellow developers and collaborate on future projects.
+## Deployed Site
+Click [here.](https://chelsea314.github.io/portfolio/)
 
+## Description
+Welcome to my professional portfolio. Here you will be able to learn more about me, explore my most recent projects and contact me with any inquiries. 
+
+## Table of Contents
+ - [How it Works](#how-it-works)
+ - [Resources](#resources)
+ - [Contributing](#contributing)
+ - [Questions](#questions)
+
+## How it Works
+View the About Me tab to learn more about who I am. You can also view my GitHub and LinkedIn portfolios by following the links in the footer. 
+![Chelsea Portfolio](./src/images/AboutMe.png)
+
+To view more, select the tab of the corresponding section you wish to explore.
+![Chelsea Portfolio](./src/images/selecttabs.png)
+
+On the projects page, you can view my most recent applications. Each application has a button to view the deployed site as well as the GitHub repository.
+![Chelsea Portfolio](./src/images/projectspage.png)
+
+On the contact page, you can select the links on the left to contact me via email or phone. You can also view my LinkedIn and GitHub portfolios from this screen as well. 
+
+Or send me a message with the form on the right. I will receive your message via email and will respond to you as soon as possible. 
+![Chelsea Portfolio](./src/images/contactpage.png)
+
+Lastly, view my resume and/or download it on the resume page.
+![Chelsea Portfolio](./src/images/resumepage.png)
+
+## Resources
+
+[Bootstrap](https://getbootstrap.com/) | [ReactJS](https://reactjs.org/) | [React-PDF](https://react-pdf.org/)
+
+## Contributing
+<table>
+
+<td align="center"><a href="https://github.com/chelsea314"><img src="https://avatars.githubusercontent.com/u/1285062?v=4" width="100px;" alt=""/><br /><sub><b>Chelsea Sexton</b></sub></a></td>
+</tr>
+</table>
+
+## Questions
+Feel free to contact Chelsea with suggestions for improvements, questions or concerns.
 <br>
 
-# Visit Site
-Click link to see portfolio.
-
-[Chelsea Sexton's Portfolio](https://chelsea314.github.io/portfolio/)
-
-<br>
-
-# Screenshot of Portfolio
-![Chelsea Portfolio](./public/portfolioScreenshot.png)
-
-# Collaborators
-[Chelsea Sexton](https://github.com/chelsea314)
-<br>
-
-
-# Resources
-
-- [Bootstrap](https://getbootstrap.com/)
-- [ReactJS](https://reactjs.org/)
-- [React-PDF](https://react-pdf.org/)
-
-<br>
-
-# License
-MIT License
-
-Copyright (c) 2022 Chelsea Sexton
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+[Email: Chelsea Sexton](mailto:chelseansexton@gmail.com)
